@@ -13,7 +13,7 @@ namespace PhotoMove
         [Option('m', "move", Required = false, HelpText = "Actually move the files.")]
         public bool Move { get; set; }
 
-        [Option('p', "path", Required = false, HelpText = "Path to organize.")]
+        [Option('p', "path", Required = true, HelpText = "Path to organize.")]
         public string Path { get; set; }
     }
 }
